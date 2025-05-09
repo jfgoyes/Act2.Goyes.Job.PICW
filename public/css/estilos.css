@@ -1,5 +1,64 @@
-p {
-    color: rgb(0, 3, 154);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 55px;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: auto;
+    padding: auto;
+}
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 35px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+.contenido-principal {
+    width: 85%;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+}
+.contenido-seccion {
+    margin-bottom: 30px;
+}
+
+.tabla-empresa th {
+    background-color: #8000ff;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.tabla-empresa {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9e6ff;
+    color: black;
+}
+
+.tabla-cliente th {
+    background-color: #efc300;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.tabla-cliente {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff9de;
+}
+
+.tabla-productos th {
+    background-color: #ef4000;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffe9de;
 }
