@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     margin: auto;
     padding: auto;
 }
@@ -27,21 +27,21 @@ th, td {
 }
 
 .tabla-empresa th {
-    background-color: #8000ff;
-    color: white;
+    background-color: #c082ff;
+    color: black;
     text-align: center;
     font-size: larger;
 }
 .tabla-empresa {
     width: 100%;
     border-collapse: collapse;
-    background-color: #f9e6ff;
+    background-color: #f9eafe;
     color: black;
 }
 
 .tabla-cliente th {
-    background-color: #efc300;
-    color: white;
+    background-color: #ffdd43;
+    color: black;
     text-align: center;
     font-size: larger;
 }
@@ -49,11 +49,12 @@ th, td {
     width: 100%;
     border-collapse: collapse;
     background-color: #fff9de;
+    color: black;
 }
 
 .tabla-productos th {
-    background-color: #ef4000;
-    color: white;
+    background-color: #ff6c37;
+    color: black;
     text-align: center;
     font-size: larger;
 }
@@ -61,4 +62,5 @@ th, td {
     width: 100%;
     border-collapse: collapse;
     background-color: #ffe9de;
+    color: black;
 }
