@@ -16,8 +16,25 @@ th, td {
 }
 
 .tekbosslogo {
-    width: 450px;
-    height: 100px;
+    width: 350px;
+    height: 85px;
+}
+.espelogocaratula {
+    width: 475px;
+    height: 125px;
+}
+
+.contenido-carátula {
+    width: 85%;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
 
 .contenido-principal {
