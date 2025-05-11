@@ -10,10 +10,16 @@ h1 {
     margin-bottom: 35px;
 }
 th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(103, 103, 103);
     padding: 10px;
     text-align: left;
 }
+
+.tekbosslogo {
+    width: 450px;
+    height: 100px;
+}
+
 .contenido-principal {
     width: 85%;
     max-width: 850px;
@@ -21,13 +27,15 @@ th, td {
     padding: 25px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px 0 rgb(88, 88, 88);
+    text-align: center;
 }
 .contenido-seccion {
     margin-bottom: 30px;
 }
 
 .tabla-empresa th {
-    background-color: #c082ff;
+    background-color: #5c95ff;
     color: black;
     text-align: center;
     font-size: larger;
@@ -35,12 +43,12 @@ th, td {
 .tabla-empresa {
     width: 100%;
     border-collapse: collapse;
-    background-color: #f9eafe;
+    background-color: #f6f8ff;
     color: black;
 }
 
 .tabla-cliente th {
-    background-color: #ffdd43;
+    background-color: #75ff43;
     color: black;
     text-align: center;
     font-size: larger;
@@ -48,12 +56,12 @@ th, td {
 .tabla-cliente {
     width: 100%;
     border-collapse: collapse;
-    background-color: #fff9de;
+    background-color: #f5fff0;
     color: black;
 }
 
 .tabla-productos th {
-    background-color: #ff6c37;
+    background-color: #fdff9b;
     color: black;
     text-align: center;
     font-size: larger;
@@ -61,6 +69,19 @@ th, td {
 .tabla-productos {
     width: 100%;
     border-collapse: collapse;
-    background-color: #ffe9de;
+    background-color: #feffee;
+    color: black;
+}
+
+.tabla-información th {
+    background-color: #ffb637;
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
+.tabla-información {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffaea;
     color: black;
 }
